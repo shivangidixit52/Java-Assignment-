@@ -1,0 +1,20 @@
+Write a program to input length amd width of rectangle and check if it is square and or not square.
+
+solution :
+import java.util.Scanner;
+public class user {
+	public static void main(String[] args)
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter the length and widthof rectangle\n");
+		float l = in.nextFloat();
+		float w = in.nextFloat();
+		if (l==w){
+			System.out.println("It is a square");
+                        }
+		else{
+			System.out.println("It is not a square");
+			}
+		
+	}
+}
