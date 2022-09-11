@@ -1,0 +1,18 @@
+Write a program to input two number and print the greatest .
+solution:
+import java.util.Scanner;
+public class user {
+	public static void main(String[] args)
+	{
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter the two numbers");
+		float a=in.nextFloat();
+		float b=in.nextFloat();
+		if (a>b){
+			System.out.println(a+" is the grestest");
+			}
+		else{
+			System.out.println(b+"is the grestest");
+			}
+         }
+}
